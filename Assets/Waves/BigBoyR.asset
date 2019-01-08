@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69a6a8eea8456a41a50352ecd9f04b8, type: 3}
+  m_Name: BigBoyR
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1040614974683564, guid: 43a919d5b17d93548b42c1446e3811cf,
+    type: 2}
+  pathPrefab: {fileID: 1391395818657694, guid: 6c386ec1335e9dc43b66e4255e65411d, type: 2}
+  timeBetweenSpawns: 3
+  timeBetweenWaves: 8
+  spawnRandomFactor: 0.3
+  moveSpeed: 2
+  numberOfEnemies: 4
